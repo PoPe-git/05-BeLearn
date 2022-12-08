@@ -14,9 +14,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/41-grupe-coming-soon/
+Site published at: https://pope-git.github.io/05-BeLearn/
 
-Design: [BeLearn] (https://dribbble.com/shots/15167925-BeLearn-Web-Exploration-2021/attachments/6907973?mode=media)
+Design: [BeLearn] https://dribbble.com/shots/15167925/attachments/6907972?mode=media
 
 ## 🎯 Project features/goals
 
