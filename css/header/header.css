@@ -1,10 +1,7 @@
 body {
   display: block;
   background-color: rgb(138, 138, 138);
-  /* margin: 0;
-  padding: 0; */
   margin-left: calc(50% - 600px);
-  /* box-sizing: border-box; */
   font-family: 'bill corporate narrow W00 bold';
 }
 
@@ -12,12 +9,10 @@ body {
   display: flex;
   width: 1200px;
   height: 70px;
-  /* margin: 0 auto; */
   margin-top: 20px;
   background-color: white;
   align-items: center;
   justify-content: space-between;
-  /* justify-content: space-evenly; */
 }
 
 .logo {
@@ -27,17 +22,60 @@ body {
 
 .search {
   margin-right: 50px;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgb(240, 240, 240);
+}
+
+.search::placeholder {
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-top: 5px;
 }
 
 .topNav > a {
-margin: 25px;
-text-decoration: none;
-color: black;
-font-family: helvetica, arial, sans-serif;
-font-size: 17px;
+  margin: 25px;
+  text-decoration: none;
+  color: black;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 17px;
 }
 
 .topNav > .active {
-    color: #2EB57B;
-    text-decoration: underline;
+  color: var(--main-color);
+  text-decoration: underline;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 1200px;
+  height: 600px;
+}
+main > .background {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  opacity: 60%;
+}
+main > .rodo-okap {
+  position: absolute;
+  height: 600px;
+}
+
+main > .small-advert {
+  position: absolute;
+}
+
+main > .small-advert > .small-pic {
+    width: 250px;
+    
+}
+
+
